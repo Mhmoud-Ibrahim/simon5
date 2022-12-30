@@ -573,10 +573,31 @@ animation-iteration-count: infinite;
     }
     @media screen and (max-width:789px) {
         .sum {
-        max-width:3100%;
+        max-width:100%;
         margin:0 20px;
         display: block;
         }  
+    }
+    @media screen and (max-width:490px) {
+        .summary .container{
+            display: block;
+            font-size: 10px;
+            width: 100%;
+            }
+            .sum {
+                width: 95%;
+                 margin: 10px;
+              }
+    .special-heading{
+    font-size: 55px;
+    font-weight: 600;
+    } 
+    .special-heading + p{
+        font-size: 22px;
+    } 
+    .special-heading + p::after{
+        left: 43%;
+    } 
     }
     .summary-body{
         border: 2px solid rgba(221, 221, 221, 0.849);
@@ -609,6 +630,7 @@ animation-iteration-count: infinite;
             width: 50%;
             padding: 15px;
         }
+      
         .skill label span{
           margin-left: 80%;
         }
@@ -649,6 +671,21 @@ animation-iteration-count: infinite;
             display: flex;
             width: 25%;
             margin: 50px auto ;
+            text-align: center;
+        }
+        @media screen and (max-width:600px) {
+            .protofio .work-anchor{
+                text-decoration: none;
+                display: flex;
+                margin: 50px auto ;
+                justify-content:center;
+            }
+            .protofio .work-anchor a{
+                text-decoration: none;
+                margin:10px  ;
+                color:#7d847b;
+                font-size: 12px;
+            }
         }
         .protofio a{
             text-decoration: none;
@@ -660,9 +697,76 @@ animation-iteration-count: infinite;
             color: var(--main-color);
             border-bottom: 1px solid var(--main-color);
         }
-        .pic img{
-            width: 25%;
+    .protofio .pic{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
         }
+        .image{
+        position: relative;
+        max-width: 100%;
+        height:200px;
+        overflow: hidden;
+        margin: 5px ;
+        }
+        @media screen and (max-width:489px) {
+            .image{
+                position: relative;
+                max-width: 100%;
+                height:200px;
+                overflow: hidden;
+                margin: 10px ;
+                }
+                .protofio .pic{
+                    width: 80%;
+                    margin: auto;
+                    display: block;
+                    }
+        }
+        .image img{
+            width: 100%;
+            height: 100%;
+            transition: 1s all;
+            -webkit-transition: 1s all;
+            -moz-transition: 1s all;
+            -ms-transition: 1s all;
+            -o-transition: 1s all;
+            overflow: hidden;
+        }
+        .layer1{
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            background-color: rgba(0, 0, 0,0.7);
+            transition:1s all ;
+            -webkit-transition:1s all ;
+            -moz-transition:1s all ;
+            -ms-transition:1s all ;
+            -o-transition:1s all ;
+            z-index: -5;
+}
+        .layer1 h5{
+            color: white;
+        }  
+        .image:hover .layer1{
+            z-index: 5;
+        }
+        .image:hover img{
+            transform: scale(1.1);
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+        }
+
+
+
                 /* end protofolio */
                 /* start-test */
         .test{
