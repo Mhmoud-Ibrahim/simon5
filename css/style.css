@@ -146,7 +146,8 @@ i.fa-cog{
     text-align: center;
     right: 0;
     top: 200px;
-    z-index: 20;display: flex;
+    z-index: 20;
+    display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -185,109 +186,104 @@ i.fa-cog{
         1%{content: "I'm ";}    
         2%{content: "I'm |";}    
         3%{content: "I'm ";}
-        0%{content: "I'm |";}
-        0%{content: "I'm ";}
-        0%{content: "I'm |";}
-        1%{content: "I'm s|";}
-        2%{content: "I'm si|";}
-        3%{content: "I'm sim|";}
-        4%{content: "I'm simo|";}
-        5%{content: "I'm  simon|";}
-        6%{content: "I'm simon|";}
-        7%{content: "I'm simone|";}
-        8%{content: "I'm simone |";}
-        9%{content: "I'm simone o|";}
-        10%{content: "I'm simone ol|";}
-        11%{content: "I'm simone oli|";}
-        12%{content: "I'm simon oliv|";}
-        13%{content: "I'm simone olivi|";}
-        14%{content: "I'm simone olivia|";}
-        14%{content: "I'm simone olivia ";}
-        14%{content: "I'm simone olivia|";}
-        14%{content: "I'm simone olivia ";}
-        15%{content: "I'm simone olivia";}
-        16%{content: "I'm simone olivi|";}
-        17%{content: "I'm simone oliv|";}
-        18%{content: "I'm simone oliv|";}
-        19%{content: "I'm simone oli|";}
-        20%{content: "I'm simone oli|";}
-        21%{content: "I'm simone ol|";}
-        22%{ content:"I'm simone o";}
-        23%{content: "I'm simone |";}
-        24%{content: "I'm simone|";}
-        25%{content: "I'm simon|";}
-        26%{content: "I'm simo|";}
-        27%{content: "I'm sim|";}
-        28%{content: "I'm si|";}
-        29%{content: "I'm s|";}
-        30%{content: "I'm ";}
-        31%{content: "I'm a ";}
-        32%{content: "I'm a F|";}
-        33%{content: "I'm a Fr|";}
-        34%{content: "I'm a Fre|";}
-        35%{content: "I'm a Free|";}
-        36%{content: "I'm a Freel|";}
-        37%{content: "I'm a Freela|";}
-        38%{content: "I'm a Freelan|";}
-        39%{content: "I'm a Freelanc|";}
-        40%{content: "I'm a Freelance|";}
-        41%{content: "I'm a Freelancer|";}
-        41%{content: "I'm a Freelancer";}
-        41%{content: "I'm a Freelancer|";}
-        41%{content: "I'm a Freelancer ";}
-        45%{content: "I'm a Freelanc|";}
-        44%{content: "I'm a Freelance|";}
-        46%{content: "I'm a Freelan|";}
-        47%{content: "I'm a Freela|";}
-        48%{content: "I'm a Freel|";}
-        49%{content: "I'm a Free|";}
-        50%{content: "I'm a Fre|";}
-        50%{content: "I'm a Fr|";}
-        50%{content: "I'm a F|";}
-        50%{content: "I'm a |";}
-        53%{content: "I'm a |";}
-        54%{content: "I'm a D|";}
-        55%{content: "I'm a De|";}
-        56%{content: "I'm a Des|";}
-        57%{content: "I'm a Desi|";}
-        58%{content: "I'm a Desin|";}
-        59%{content: "I'm a Desine|";}
-        60%{content: "I'm a Desiner|";}
-        61%{content: "I'm a Desiner";}
-        62%{content: "I'm a Desiner|";}
-        63%{content: "I'm a Desiner";}
-        64%{content: "I'm a Desine|";}
-        65%{content: "I'm a Desin|";}
-        66%{content: "I'm a Desi|";}
-        67%{content: "I'm a Des|";}
-        68%{content: "I'm a De|";}
-        69%{content: "I'm a D|";} 
-        69%{content: "I'm  |";} 
-        69%{content: "I'm   ";} 
-        69%{content: "I'm  |";}
-        70%{content: " ";} 
-       71%{content: " |";} 
-       72%{content: " ";} 
-        73%{content: " |";} 
-        74%{content: " ";} 
-        75%{content: " |";} 
-        76%{content: " ";} 
-        77%{content: " |";} 
-        78%{content: " ";} 
-        79%{content: " |";} 
-        80%{content: " ";} 
-        81%{content: " |";} 
-        82%{content: " ";} 
-        83%{content: " |";} 
-        84%{content: " ";} 
-        85%{content: " |";} 
-        86%{content: " ";} 
-        87%{content: " |";} 
-        88%{content: " ";} 
-        89%{content: " |";} 
-        90%{content: " ";} 
-        91%{content: " |";}
-        100%{content: "|";} 
+        4%{content: "I'm |";}
+        5%{content: "I'm ";}
+        6%{content: "I'm |";}
+        7%{content: "I'm s|";}
+        8%{content: "I'm si|";}
+        9%{content: "I'm sim|";}
+        10%{content: "I'm simo|";}
+        12%{content: "I'm  simon|";}
+        13%{content: "I'm simon|";}
+        14%{content: "I'm simone|";}
+        15%{content: "I'm simone |";}
+        16%{content: "I'm simone o|";}
+        17%{content: "I'm simone ol|";}
+        18%{content: "I'm simone oli|";}
+        19%{content: "I'm simon oliv|";}
+        20%{content: "I'm simone olivi|";}
+        21%{content: "I'm simone olivia|";}
+        22%{content: "I'm simone olivia ";}
+        23%{content: "I'm simone olivia|";}
+        24%{content: "I'm simone olivia ";}
+        25%{content: "I'm simone olivia |";}
+        26%{content: "I'm simone olivi|";}
+        27%{content: "I'm simone oliv|";}
+        28%{content: "I'm simone oliv|";}
+        30%{content: "I'm simone oli|";}
+        31%{content: "I'm simone oli|";}
+        32%{content: "I'm simone ol|";}
+        33%{ content:"I'm simone o";}
+        34%{content: "I'm simone |";}
+        35%{content: "I'm simone|";}
+        36%{content: "I'm simon|";}
+        37%{content: "I'm simo|";}
+        38%{content: "I'm sim|";}
+        39%{content: "I'm si|";}
+        40%{content: "I'm s|";}
+        41%{content: "I'm ";}
+        42%{content: "I'm |";}
+        43%{content: "I'm ";}
+        44%{content: "I'm a ";}
+        45%{content: "I'm a F|";}
+        46%{content: "I'm a Fr|";}
+        47%{content: "I'm a Fre|";}
+        48%{content: "I'm a Free|";}
+        49%{content: "I'm a Freel|";}
+        50%{content: "I'm a Freela|";}
+        51%{content: "I'm a Freelan|";}
+        52%{content: "I'm a Freelanc|";}
+        53%{content: "I'm a Freelance|";}
+        54%{content: "I'm a Freelancer|";}
+        55%{content: "I'm a Freelancer";}
+        56%{content: "I'm a Freelancer|";}
+        57%{content: "I'm a Freelancer ";}
+        58%{content: "I'm a Freelanc|";}
+        59%{content: "I'm a Freelance|";}
+        60%{content: "I'm a Freelan|";}
+        61%{content: "I'm a Freela|";}
+        62%{content: "I'm a Freel|";}
+        63%{content: "I'm a Free|";}
+        64%{content: "I'm a Fre|";}
+        65%{content: "I'm a Fr|";}
+        66%{content: "I'm a F|";}
+        67%{content: "I'm a |";}
+        68%{content: "I'm a ";}
+        69%{content: "I'm a |";}
+        70%{content: "I'm a D|";}
+        71%{content: "I'm a De|";}
+        72%{content: "I'm a Des|";}
+        73%{content: "I'm a Desi|";}
+        74%{content: "I'm a Desin|";}
+        75%{content: "I'm a Desine|";}
+        76%{content: "I'm a Desiner|";}
+        77%{content: "I'm a Desiner";}
+        78%{content: "I'm a Desiner|";}
+        77%{content: "I'm a Desiner";}
+        78%{content: "I'm a Desiner|";}
+        79%{content: "I'm a Desiner";}
+        80%{content: "I'm a Desine|";}
+        81%{content: "I'm a Desin|";}
+        82%{content: "I'm a Desi|";}
+        83%{content: "I'm a Des|";}
+        84%{content: "I'm a De|";}
+        85%{content: "I'm a D|";} 
+        86%{content: "I'm  |";} 
+        87%{content: "I'm   ";} 
+        88%{content: "I'm  |";}
+        89%{content: " ";} 
+        90%{content: " |";} 
+        91%{content: " ";} 
+        92%{content: " |";} 
+        93%{content: " ";} 
+        94%{content: " |";} 
+        95%{content: " ";} 
+        96%{content: " |";} 
+        97%{content: " ";} 
+        98%{content: " |";} 
+        99%{content: " ";} 
+        100%{content: " |";} 
+        
 }
 .fa-chevron-down{
     position: relative;
@@ -326,12 +322,12 @@ animation-iteration-count: infinite;
         display: block;
         margin: 13px;
         transition: 1s all;
-        -webkit-transition: 1s all;
-        -moz-transition: 1s all;
-        -ms-transition: 1s all;
-        -o-transition: 1s all;
+        -webkit-transition:;
+        -moz-transition:;
+        -ms-transition:;
+        -o-transition:;
         border-bottom: 1px solid rgb(59, 58, 58);
-     }
+}
      .menu #m-home{
         color:#20c997 ;
     }
@@ -942,7 +938,7 @@ animation-iteration-count: infinite;
         }
         #totop{
             position:fixed;
-            right: 20px;
+            right:20px;
             padding: 10px;
             bottom: 35px;
             border-radius: 50%;
