@@ -862,6 +862,7 @@ animation-iteration-count: infinite;
             width:97%;
             border-radius:5px ;
             height:150px;
+            border:none;
             -webkit-border-radius:5px ;
             -moz-border-radius:5px ;
             -ms-border-radius:5px ;
